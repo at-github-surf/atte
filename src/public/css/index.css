@@ -1,0 +1,115 @@
+.header {
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header__outer {
+    max-width: 830px;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__sitetitle {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 32px;
+    margin-top: 0px;
+    padding-top: 12px;
+}
+
+.header__membermenu {
+    margin: 0;
+}
+
+.header__menu-textbtn {
+    text-decoration: none;
+    margin-right: 30px;
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.header__menu-form {
+    display: inline-block;
+}
+
+.header__menu-formbtn {
+    display: inline-block;
+    margin-right: 50px;
+    padding: 0;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.timecard {
+    background-color: #eee;
+}
+
+.timecard__outer {
+    max-width: 830px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.timecard__title {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.timecard__attendance-button-wrapper {
+    max-width: 700px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.timecard__attendance-button {
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 340px;
+    height: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.timecard__attendance-button--disable {
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    width: 340px;
+    height: 120px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.timecard__attendance-button-form:nth-child(odd) {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
