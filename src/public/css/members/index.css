@@ -138,3 +138,7 @@
 .attendance__indextable-data--name {
     text-align: left;
 }
+
+attendance__indextable-paginate {
+    width: 100%;
+}

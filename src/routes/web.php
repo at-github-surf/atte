@@ -28,8 +28,8 @@ Route::middleware('auth')->group(function () {
     Route::get('/members', [AuthController::class, 'getMembers']);
 });
 
-Route::get('/login', [AttendanceController::class, 'getLogin'])->name('login');
+//Route::get('/', function () {return view('login');});
 
-Route::get('/register', function () {
-    return view('register');
-});
+//Route::get('/login', [AttendanceController::class, 'getLogin'])->name('login');
+
+//Route::get('/register', function () {return view('register');});

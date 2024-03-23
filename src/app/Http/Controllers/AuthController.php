@@ -7,7 +7,7 @@ use App\Models\User;
 
 class AuthController extends Controller
 {
-    public function index()
+    /*public function index()
     {
         return view('index');
     }
@@ -15,7 +15,7 @@ class AuthController extends Controller
     public function getLogin()
     {
         return view('login');
-    }
+    }*/
 
     public function getMembers(){
         $members = user::paginate(5);

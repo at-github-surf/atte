@@ -42,7 +42,7 @@
                     @endforeach
                 </tbody>
             </table>
-            {{ $members->links() }}
+            <div class="attendance__indextable-paginate">{{ $members->links() }}</div>
 
         </div>
     </div>
